@@ -18,7 +18,7 @@ const App = () => {
       <Navbar/>
       <Hero 
          setPlayStatus={setPlayStatus}
-         heroData={heroData}
+         heroData={heroData[heroCount]}
          heroCount={heroCount}
          setHeroCounter={setHeroCount}
          playStatus={playStatus}
